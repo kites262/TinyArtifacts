@@ -10,27 +10,27 @@ Then, you can execute the `cd` or `pwd` command.
 
 #### Command `pwd`: print current directory
 
-- pwd: print current directory
+- `pwd`: print current directory
 
 #### Command `cd`: change directory
 
-- cd dir1/dir2: go to relative path
-- cd /path/to/dir: go to absolute path
-- cd /: go to root directory
-- cd ..: go to parent directory
+- `cd dir1/dir2`: go to relative path
+- `cd /path/to/dir`: go to absolute path
+- `cd /`: go to root directory
+- `cd ..`: go to parent directory
 
 ### Full Mode
 
-If you want to use this program in full mode, you can define FULL_MODE as `1`*(default)*.
+If you want to use this program in full mode, you can define `FULL_MODE` as `1`*(default)*.
 
 In full mode, the program will work like a Linux shell:
 
-- You can see the username and hostname in the prompt, default is 'kites@Linux'
-- You can type 'pwd' to print current directory and continue to input.
+- You can see the username and hostname in the prompt, default is `kites@Linux`
+- You can type `pwd` to print current directory and continue to input.
 
 
 
-If FULL_MODE is defined as `0`,  the username and hostname will not be printed, and `pwd` terminate the program after print the word directory.
+If `FULL_MODE` is defined as `0`,  the username and hostname will not be printed, and `pwd` terminate the program after print the word directory.
 
 ### Example
 
